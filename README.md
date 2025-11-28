@@ -202,3 +202,23 @@ Her Utopia 不是一个完美的终点，而是一个持续的调试过程。我
 
 我们邀请每一个相信关怀经济、认同女性主义价值、愿意参与社会重写的人，加入这个伟大的调试工程。  
 因为我们不仅是系统的使用者，更是规则的编写者。
+
+
+---  
+
+TECHNICAL ARCHITECTURE
+
+Her Utopia adopts a modular on-chain architecture:
+
+- HerTerritory: Identity root layer (SBT-based, non-transferable)
+- HerEconomy: On-chain labor & value protocol (HER Token)
+- HerCommons: Consensus-first governance module
+- HerStory: Encrypted narrative & attestation system
+- HerProtocol: Consent & relationship protocol
+- HerDebug: System flaw reporting and repair module
+
+Tech Stack:
+- Smart Contracts: Solidity + Hardhat
+- Frontend: Next.js + Ethers.js
+- Network: EVM-compatible blockchain
+- Identity: SBT (Soulbound Token)
